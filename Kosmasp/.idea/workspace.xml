@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a08a1b3-211e-41ea-b0e6-e9c74d8b4431" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TKGoviDERg7eHswHoN1BDZDXmn" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../analytics-platform" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StatisticUtilsArrayStreamTest">
+    <configuration name="StatisticUtilsArrayStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kosmasp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.n2gkosmas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.n2gkosmas" />
+      <option name="MAIN_CLASS_NAME" value="com.n2gkosmas.StatisticUtilsArrayStreamTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticUtilsArrayStreamTest.StatisticUtilsArrayTestStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kosmasp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.n2gkosmas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.n2gkosmas" />
+      <option name="MAIN_CLASS_NAME" value="com.n2gkosmas.StatisticUtilsArrayStreamTest" />
+      <option name="METHOD_NAME" value="StatisticUtilsArrayTestStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticUtilsTemplatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kosmasp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.n2gkosmas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.n2gkosmas" />
+      <option name="MAIN_CLASS_NAME" value="com.n2gkosmas.StatisticUtilsTemplatesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticUtilsTemplatesTest.StatisticUtilsArrayListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kosmasp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.n2gkosmas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.n2gkosmas" />
+      <option name="MAIN_CLASS_NAME" value="com.n2gkosmas.StatisticUtilsTemplatesTest" />
+      <option name="METHOD_NAME" value="StatisticUtilsArrayListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticUtilsTemplatesTest.StatisticUtilsTemplatesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Kosmasp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.n2gkosmas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.n2gkosmas" />
+      <option name="MAIN_CLASS_NAME" value="com.n2gkosmas.StatisticUtilsTemplatesTest" />
+      <option name="METHOD_NAME" value="StatisticUtilsTemplatesTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StatisticUtilsArrayStreamTest" />
+        <item itemvalue="JUnit.StatisticUtilsTemplatesTest.StatisticUtilsTemplatesTest" />
+        <item itemvalue="JUnit.StatisticUtilsTemplatesTest" />
+        <item itemvalue="JUnit.StatisticUtilsTemplatesTest.StatisticUtilsArrayListTest" />
+        <item itemvalue="JUnit.StatisticUtilsArrayStreamTest.StatisticUtilsArrayTestStream" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a08a1b3-211e-41ea-b0e6-e9c74d8b4431" name="Default Changelist" comment="" />
+      <created>1573201552061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573201552061</updated>
+    </task>
+    <servers />
+  </component>
+</project>
