@@ -5,7 +5,7 @@ import java.util.Arrays;
  * This project consists of 3 Steps (3 methods)
  * 1) findAscendingMinima-returns AMA for a given window by using recursion.
  * 2) adjustAscendingMinima-reconstructs AMA when the window slides and a new element is added to it.
- * 3) ascendingMinimaAlgorithm-by using both (1) and (2) it return the final result array for a given array and window.
+ * 3) ascendingMinimaAlgorithm-by using both (1) and (2) it returns the final result array for a given array and window.
  *
  * All methods' return type is preferred to be ArrayList , because its fast&easy
  * plus we need to return a list of array containing some data.
@@ -29,15 +29,13 @@ import java.util.Arrays;
             int index=0;
             int min = window[0];
 
-            for (int i = 0; i < window.length; i++) { //else find the minimum element in window
-                if (window[i] <= min) {
-                    min = window[i];
-                    index = i;
+                for (int i = 0; i < window.length; i++) { //else find the minimum element in window
+                    if (window[i] <= min) {
+                        min = window[i];
+                        index = i;
+                    }
                 }
-            }
-            ama.add(window[index]); //add it to AmA
-            ama = findAscedingMinima(Arrays.copyOfRange(window, index+1 , window.length), ama);
-            //and repeat the same process for the rest of window's elements , until the last one is added to AmA.
+                ama.add(window[index]); //add it to AmA
             return ama;
         }
     }
@@ -58,19 +56,19 @@ import java.util.Arrays;
         return ama;
     }
 
-    //Run The Ascending Minima Algorithm for a given array.
-    //@array is the given array of size n (may be a Stream also).
-    //@length is window's current size.
+    /**Run The Ascending Minima Algorithm for a given array.
+    *@param array  is the given array of size n (may be a Stream also).
+    *@param length  is window's current size.
+    */
     ArrayList<Integer> ascedingMinimaAlgorithm(int[] array, int length) {
-        ArrayList<Integer> ama = new ArrayList<>(); //create AmA as an initially empty arraylist , so that when an
-                                                    //element is discarded , the rest of them have {index'=index-1} by
-                                                    //default.
-        ArrayList<Integer> result = new ArrayList<>(); //this gonna contain the desired output values .
+        ArrayList<Integer> ama = new ArrayList<>(); //create an AmA arraylist , so that when an element is discarded ,
+                                                    // the rest of them have {index'=index-1} by default.
+        ArrayList<Integer> result = new ArrayList<>(); //this contains the desired output values .
         int [] window = Arrays.copyOfRange(array,0,length);//Define the initial contents of the window.
         ama = findAscedingMinima(window , ama); //find Ama for the given window
         result.add(ama.get(0));    //add the 1st element of Ama(which is the minimum among all) to the result-arraylist.
         for(int i=length;i<array.length;i++){
-            int element = array[i];             //array[i]=array[length]=the next element to be added to the window.
+            int element = array[i];             //array[i] = the next element to be added to the window.
             ama = adjustAmaForWindowShift(element,window,ama);
             window = Arrays.copyOfRange(array,i-length+1,i+1); //the window slides by one position every time.
             result.add(ama.get(0));
